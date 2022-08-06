@@ -1,0 +1,592 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+	     <title>Vente_life</title>
+	       <!-- Liaison    -->
+	         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	       <!-- Liaison script bootstrap --> 
+	     <script src="js/bootstrap.min.js"></script>
+    </head>
+<body>
+<div class="container-fluid">
+      <!-- debut menu lateral -->
+	       <nav class="navbar navbar-expand-lg bg-dark">
+   		     <a class="navbar-brand" href="#">CODINGLIFE</a>
+    	     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls	="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    	  	 <span class="navbar-toggler-icon"></span>
+    	   </button>
+   		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ms-2 mb-lg-0">
+        	<li class="nav-item">
+        	    <a class="nav-link active text-white" aria-current="page" href="login.html">ACCUEIL</a>
+        	       </li>
+        	           <li class="nav-item">
+        	            </li>
+        	              <li class="nav-item dropdown">
+        	               <a class="nav-link dropdown-toggle text-white" href="electronique.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         	               E-BOUTIQUE
+        	               </a>
+         	             <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="boutique.html">PRODUITS</a></li>
+                  <li><a class="dropdown-item" href="blog.html">A PROPOS</a></li></li>
+                  <li><a class="dropdown-item" href="aboute.html">ABOUTE</a></li></li>
+                  <li><a class="dropdown-item" href="register.html">A PROPOS</a></li></li>
+                <li><a class="dropdown-item" href="electronique.html">ElECTRONIQUE</a></li></li>
+               <li><a class="dropdown-item" href="login.html">INSCRIPTION</a></li></li>
+         	</ul>
+        	</li> 
+        	     <li class="nav-item">
+       	 	        <a class="nav-link text-white" href="blog.html">BLOG</a>
+        	          </li>
+        	           <li class="nav-item">
+        	           <a class="nav-link text-white" href="login.html">INSCRIPTION</a>
+        	          </li>
+        	        <li class="nav-item">
+          	  <a class="nav-link text-white">A PROPOS</a>
+        	</li>
+      	</ul>
+    </nav>
+    <!-- Fin menu de lateral -->
+
+	<!-- Debut de carousel  -->
+
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+ 		     <div class="carousel-inner">
+   		       <div class="carousel-item active">
+     	        <img src="img/caroussel/3.jpg" class="d-block w-100" alt="...">
+    	         </div>
+    	           <div class="carousel-item">
+     	          <img src="img/caroussel/4.jpg" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                <img src="img/caroussel/banner1.png" class="d-block w-100" alt="...">
+               </div>
+                <div class="carousel-item">
+                <img src="img/caroussel/2.jpg" class="d-block w-100" alt="...">
+               </div>
+               <div class="carousel-item">
+                <img src="img/caroussel/6.jpeg" class="d-block w-100" alt="...">
+               </div>
+             <div class="caroussel-item">
+            <img src="img/caroussel/7.jpg" class="d-block w-100" alt="...">
+         </div>
+  	 </div>
+   	</div>
+
+	<!-- Fin carousel -->
+
+	<!-- Debut section titre -->
+
+	<div class="card bg-primary p-2 mt-4">
+		  <div class="card-body bg-dark w-80 mx-auto text-center" style="border-radius:10px ;">
+		    <h3 class="card-tite text-white text-uppercase fs-3">Tout à commencé par une idée simple</h3>
+		  <p class="card-text text-white fs-4">créer des produits de qualité et bien conçus que je voulais moi-même</p>
+		</div>
+	</div>
+
+	<!-- Fin section titre -->
+
+	<!-- Debut section type produit -->
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+ 	  <div class="col">
+        <div class="card h-100">
+      	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    
+    <div class="carousel-item">
+      <img src="img/28.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Montre nouvelle version</h5>
+        <p>Obtenez le produit à bas prix</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/25.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Nouvelle version de téléphone</h5>
+        <p>Obtenez le produit à bas prix</p>
+      </div>
+    </div>
+    <div class="carousel-item active">
+      <img src="img/26.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Machine de dernièrere gernération</h5>
+        <p>Onbtenez le produit à moyen prix</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+        <div class="card-body">
+        <h5 class="card-title">HABITS</h5>
+       </div>
+      </div>
+    </div>
+
+  <div class="col">
+      <div class="card h-100">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+      
+      <div class="carousel-item">
+        <img src="img/horloge.gif" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Montre nouvelle version</h5>
+          <p>Obtenez le produit à bas prix</p>
+        </div>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/54.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Machine de dernièrere gernération</h5>
+            <p>Onbtenez le produit à moyen prix</p>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <img src="img/1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Nouvelle version de téléphone</h5>
+            <p>Obtenez le produit à bas prix</p>
+          </div>
+
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <div class="card-body">
+        <h5 class="card-title">TELEPHONE</h5>
+    </div>
+    </div>
+  </div>
+ <div class="col">
+     <div class="card h-100">
+     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+ 
+ <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/mont.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Machine de dernièrere gernération</h5>
+        <p>Onbtenez le produit à moyen prix</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/horloge.gif" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Montre nouvelle version</h5>
+        <p>Obtenez le produit à bas prix</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/tel.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Nouvelle version de téléphone</h5>
+        <p>Obtenez le produit à bas prix</p>
+      </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      <div class="card-body">
+      <h5 class="card-title">ORDINATEUR</h5>
+      </div>
+    </div>
+ </div>
+</div>
+
+</div>
+ <!-- Fin section type produit -->
+
+ <!-- Debut contenu produit -->
+
+ <div class="card bg-dark text-white mt-4 mb-2" style="width: auto;">
+	<p class="card-text text-center text-danger fs-3"> PRODUITS POPULAIRES</p>
+ </div>
+ <!-- Fin contenu produits -->
+
+<!-- Début section produits populaire -->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/1.png" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">Produit populaire</h5>
+        <p class="card-text fs-4"> 1 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+  
+<div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/108.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">Produit populaire</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/100.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">Produit populaire</h5>
+        <p class="card-text fs-4"> 800 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/101.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">Produit populaire</h5>
+        <p class="card-text fs-4"> 4 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+ <!-- Fin section type produit -->
+
+ <!-- Debut contenu produit -->
+
+ <div class="card bg-dark text-white mt-4 mb-2" style="width: auto;">
+    <p class="card-text text-center text-danger fs-3"> MEILLEURS PRODUITS</p>
+ </div>
+ <!-- Fin contenu produits -->
+
+<!-- Début section produits populaire -->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/103.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+  
+<div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/107.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/116.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-3">
+    <div class="card h-100">
+      <img src="img/11.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+ </div>
+
+
+
+
+
+
+
+<!-- Fin section produits populaire -->
+
+ <div class="card bg-dark text-white mt-4 mb-2" style="width: auto;">
+    <p class="card-text text-center text-danger fs-3"> MEILLEURS VENTES</p>
+ </div>
+ <!-- Fin contenu produits -->
+
+<!-- Début section produits populaire -->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col-md-2">
+    <div class="card h-100">
+      <img src="img/4.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+  
+<div class="col-md-2">
+    <div class="card h-100">
+      <img src="img/5.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-2">
+    <div class="card h-100">
+      <img src="img/6.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-2">
+    <div class="card h-100">
+      <img src="img/7.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-md-2">
+    <div class="card h-100">
+      <img src="img/8.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+
+<div class="col-md-2">
+    <div class="card h-100">
+      <img src="img/9.jpeg" class="card-img-top" alt="...">
+      <div class="card-body text-center">
+        <h5 class="card-title text-primary">ACER ASPIRE 5 ASIS</h5>
+        <p class="card-text fs-4"> 3 500 000 FG</p>
+        </div>
+        <div class="card-footer">
+        <button class="btn btn-block bg-primary text-white w-100">Achetez Maintenant</button>
+      </div>
+    </div>
+  </div>
+
+   </div>
+
+
+   <!-- Début section  témoignage -->
+<div class="row mt-4 container-fluid">
+    <div class="card bg-dark m-2">
+        <h2 class="card-title text-center text-danger">TEMOIGNAGES CLIENTS</h2> 
+    </div>
+    <div class="col-md-6">
+          <div class="row">
+            <div  class="col-md-2">
+             <img src="img/user3.jpg" class="img-top w-100">  
+                </div>
+                <div  class="col-md-8">
+                <h3 class="text-center">Rose de Graang</h3>
+                <p class="text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate .  
+                </p>
+            </div>
+         </div>
+    </div>
+ <div class="col-md-6">
+          <div class="row">
+            <div  class="col-md-2">
+              <img src="img/user4.jpg" class="img-top w-100">  
+                </div>
+                <div  class="col-md-8">
+                <h3 class="text-center">Rose de Graang</h3>
+                <p class="text-justify">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate .  
+                </p>
+            </div>
+         </div>
+    </div>
+
+
+
+
+
+</div>
+
+   <!-- Début section  témoignage -->
+
+<!-- Début pieed de page -->
+
+<div class="container-fluid mt-2">
+  <footer class="py-5 bg-dark">
+    <div class="row">
+      <div class="col-2 mx-2">
+        <h3 class="text-light">Liens Utiles</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Accuil</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h3>Dev web</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Java</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">JavaScript</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Python</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">HTML</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">CSS</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h3>Boutique</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Nos Produits</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Electroniques</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Electrmecanique</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Habits</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Divers</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2">
+        <form>
+          <h3>Souscrir à notre newsletter</h3>
+          <p>Inscrivez vous pour n'est rien raté de nos prochaine offres.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Adresse E-mail</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" style="width: 300px;">
+            <button class="btn btn-primary" type="button">Souscrie</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </footer>
+</div>
+
+
+
+
+<!-- Fin pied de page -->
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+

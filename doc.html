@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My_blog</title>
+	<link rel="stylesheet" type="text/css" href="css/doc.css">
+</head>
+<body>
+	<main>
+		<div id="menu_lateral">
+				    <ul id="text1">
+				    <h3><li id="text2"><a href="">Cours de HTML ET CSS</a></li></h3>
+					<li><a href=""> HTML, la norme et son évolution</a></li>
+					<li><a href="">Validation W3C et tests de portabilité</a></li>
+					<li><a href="">Structure d’un document HTML ou XHTML</a></li>
+					<li><a href="">Premier document HTML5</a></li>
+					<li><a href="">Structure du texte en HTML</a></li>
+					<li><a href="">Mise en forme du texte HTML : styles CSS</a></li>
+					<li><a href="">Structure du texte en HTML</a></li>
+					<li><a href="">Formes d’inclusion de styles CSS</a></li>
+					<li><a href="">Liens</a></li>
+					<li><a href="">Tableaux</a></li>
+					<li><a href="">Insertion d’images</a></li>
+					<li><a href="">Figures et sous-figures avec légende</a></li>
+					<li><a href="">Caractères spéciaux </a></li>
+					<li><a href="">Styles CSS et mise en page 27</a></li>
+					<li><a href="">Éléments HTML de type block et inline</a></li>
+					<li><a href="">Distinguer des parties dans un document : balise div</a></li>
+					<li><a href="">Imbrication des balises et CSS</a></li>
+					<li><a href="">Arborescence de balises et CSS</a></li>
+					<li><a href="">Classes CSS</a></li>
+					<li><a href="">Sélecteurs de style CSS par ID</a></li>
+					<li><a href="">Marges et bordures</a></li>
+					<li><a href="">Positionnement absolu</a></li>
+					<li><a href="">Positionnement relatif</a></li>
+					<li><a href="">Structuration d’une page en HTML5</a></li>
+					<li><a href="">Exemples de mise en page</a></li>
+					<li><a href="">CSS adaptatifs : Media Queries</a></li> 
+				    </ul>
+			 </div>
+		    <div class="intro">INTRODUCTION</div>
+		    <div id="intro2">
+Pages web statiques HTML5 <br>
+1.1 HTML, la norme et son évolution <br>
+Le langage HTML, ou Hyper Text Markup Language, permet de décrire et de mettre en forme
+des documents variés, depuis du simple texte jusqu’à des documents multimédia riches avec la
+définition d’HTML <5 class="br"></5>
+Une page HTML est en général destinée à être publiée sur le World Wide Web, où toutes
+sortes de gens utilisent toutes sortes de navigateurs qui fonctionnent sous sdifférentes platteformes
+(Mac OS, ipad, Linux, Androïd, MS Windows, etc. pour citer les plus courants). <br> Pour
+que celà fonctionne, il a été nécessaire de définir un standard pour le langage HTML. C’est
+le standard du World Wide Web Consortium, ou W3C. A noter le rôle déterminant qu’a joué
+la libération du code source du navigateur Netscape par la société Netscape Communications
+Corporation pour que la pluralité des acteurs n’évitent que les standards du web soient de fait
+propriétaire.
+
+		    </div>
+		    <div class="intro3">Validation W3C et tests de portabilité</div>
+		    <div id="intro2">
+		    	
+Validation W3C et tests de portabilité: <br>
+1.2.1 Validateur W3C <br>
+Lorsqu’on écrit une page web en HTML, pour être sûr que celle-ci soit correctement interprétée
+et affichée par tous les navigateurs qui supportent correctement la norme, il faut valider cette
+page pour s’assurer qu’elle est conforme à la norme. Le processus est similaire à l’analyse de la
+syntaxe d’un programme par un compilateur et peut se faire en ligne en uploadant le fichier ou
+en donnant son URL publique. Certains éditeurs proposent une validation interne ou même à
+la volée. <br>
+Les scripts en PHP et autre ne peuvent pas être directement validés car ce sont en fait
+des programmes. Par contre, leur sortie (ce qu’ils affichent) doit être du HTML conforme à la
+norme. <br>
+
+		    </div>
+
+
+
+ <div class="intro3">Structure d’un document HTML ou XHTML</div>
+		    <div id="intro2">
+		    	
+Structure d’un document HTML ou XHTML
+Un document HTML ou XHTML doit comporter :<br>
+1. Sur la première ligne qui ne soit pas constituée d’un commentaire : le doctype qui spécifie
+le type de document (HTML, XHTML et version). Ceci permet que le navigateur puisse
+supporter et interpréter plusieurs formats de documents.<br>
+2. Une balise de début de description de document &lt html [+attributs] &gt<br>
+3. Un en-tête compris dans une balise &lt head &gt...&lt/head &gt.<br>
+4. Dans le header, une spécification de l’encoding ou charset : ISO-8859-1, latin1, et maintenant
+systématiquement utf-8. Ce dernier est d’ailleurs le défaut utilisé lorsque l’encoding
+n’est pas spécifié.<br>
+5. Dans le header, de manière optionnelle, une description du style de document (couleurs,
+polices, tailles, etc.) au format <br>
+6. Un corps du document dans une balise &lt body &gt...&lt/body&gt.
+
+                /&lt!doctype html&gt <br>
+ &lt!−− D e c l a r a t i o n du debut d’un document HTML avec l a langue : −−&gt<br>
+&lthtml lang=” f r ”&gt<br>
+&lthead&gt<br>
+&ltmeta charset=”UTF−8”/&gt<br>
+&lt!−− Dé c l a r a t i o n du type d’encodage −−&gt<br>
+&lt!−− T i t r e de l a page dans l a f e n ê t r e ou l ’ o n g l e t du n a v i g a t e u r −−&gt<br>
+&lt i t l e&gtMy f i r s t HTML 5 document&lt/ t i t l e&gt<br>
+&lt/headagt<br>
+&ltbody&gt<br>
+&ltp&gt<br>
+H e l l o world !<br>
+&lt/p&gt<br>
+&lt/body&gt<br>
+&lt/html&gt<br>
+
+		    </div>
+
+<div class="intro3">Premier document HTML5</div>
+		    <div id="intro4">
+		    	
+/&lt!doctype html&gt <br>
+2 &lt!−− D e c l a r a t i o n du debut d’un document HTML −−&gt<br>
+3 &lthtml lang=” f r ”&gt<br>
+4 &lt!−− V o i c i l ’ e n−t e t e qui d e c l a r e l e s p r o p r i e t e s g e n e r a l e s de l a page −−&gt<br>
+5 &lthead&gt &lt!−− debut de l ’ e n−t e t e HTML −−&gt<br>
+&lt!−− d e c l a r a t i o n de l ’ e n c o d a g e pour l e s a c c e n t s . . . −−&gt<br>
+7 &ltmeta charset=”UTF−8”/&gt<br>
+8 &lt!−− T i t r e de l a page ( a u s s i t i t r e de l a f e n ê t r e du n a v i g a t e u r ) −−&gt<br>
+9 &ltt i t l e&gtPremières b a l i s e s HTML&lt/ t i t l e&gt<br>
+10 &lt/head&gt<br>
+11 &ltbody&gt &lt!−− dé but du c o r p s HTML −−&gt<br>
+12 &lth1&gtMon premier f i c h i e r HTML&lt/h1&gt<br>
+13 &ltp&gt &lt!−− Nouveau paragraphe ( saut de l i g n e ) −−&gt<br>
+14 Ceci e s t mon premier f i c h i e r HTML. &ltbr/&gt &lt!−− à l a l i g n e −−&gt<br>
+15 Le ” body ” r e p r é s e n t e l e c o r p s du document ,<br>
+16 dans l e q u e l on met l e t e x t e à a f f i c h e r .<br>
+17 &lt/p&gt &lt!−− Fin de paragraphe −−&gt<br>
+18 &ltp&gt<br>
+19 Le header ( b a l i s e ” head ” ) dé f i n i t l e s p r o p r i é t é s g l o b a l e s du document ,<br>
+20 t e l l e s que l ’ e n c o d a g e , l e t i t r e de l a page e t des é l é ments de style .<br>
+21 &lt/p&gt<br>
+22 &lt/body&gt &lt!−− f i n du c o r p s HTML −−&gt<br>
+23 &lt/html&gt &lt!−− f i n du code HTML −−&gt<br>
+
+		    </div>
+		<div class="intro3">Premier document HTML5</div>
+		    <div id="intro4">
+		    	
+/&tl!doctype html&gt <br>
+2 &lt!−− D e c l a r a t i o n du debut d’un document HTML −−&gt <br>
+3 &lthtml lang=” f r ”&gt <br>
+4 &lt!−− V o i c i l ’ e n−t e t e qui d e c l a r e l e s p r o p r i e t e s g e n e r a l e s de l a page −−&gt <br>
+5 &lthead&gt &lt!−− debut de l ’ e n−t e t e HTML −−gt <br>
+6 &lt!−− d e c l a r a t i o n de l ’ e n c o d a g e pour l e s a c c e n t s . . . −−&gt <br>
+7 &ltmeta charset=”UTF−8”/&gt <br>
+8 &lt!−− T i t r e de l a page ( a u s s i t i t r e de l a f e n ê t r e du n a v i g a t e u r ) −−&gt <br>
+9 &ltt i t l e&gtS t r u c t u r e d’un document HTML&lt/ t i t l e&gt <br>
+10 &lt/head&gt <br>
+11 &ltbody&gt &lt!−− dé but du c o r p s HTML −−&gt <br>
+&lth1&gtS t r u c t u r e d’un document HTML&lt/h1&gt <br>
+13 &ltp&gt <br>
+14 HTML e s t un langage de d e s c r i p t i o n de documents non WISIWIG,<br>
+15 c ’ e s t à d i r e que l e f i c h i e r s o u r c e ne r e s s e m b l e pas vraiment <br>	
+16 au document t e l que l ’ u t i l i s a t e u r f i n a l l e v e r r a .&ltbr/&gt <br>
+17 WISIWIG : &ltem&gtWhat You See I s What You Get&lt/em&gt. <br>
+18 &lt/p&gt <br>
+19 &ltp&gt <br>
+20 En HTML, l e s &ltem&gtb a l i s e s&lt/em&gt, qui sont encadr é e s par des &l t ; e t &gt ; , <br>
+21 &lts trong&gtdé f i n i s s e n t l a s t r u c t u r e du document&lt/s trong> en c a r a c t é r i s a n t <br>
+d i f f é r e n t e s <br>
+22 p a r t i e s du document ( t i t r e s , paragraphes , tableaux , é l ément important , <br>
+23 l i s t e à puces , images , o b j e t s de type vid é o f l a s h , multim é dia pour &ltem&gt <br>
+HTML5&lt/em&gt, e t c . <br>
+24 &lt/p&gt  <br>
+25 &ltp&gt <br>
+26 Par exemple , l a b a l i s e &l t ; p&gt ; &l t ; /p&gt ; dé l i m i t e un <br>
+27 paragraphe . Un couple de b a l i s e s avec du t e x t e a n t r e l e s b a l i s e s s ’ a p p e l l e 
+un <br>
+28 &ltem&gté l ément&lt/em&gt <br>
+29 &lt/p&gt <br>
+30 &lt/body&gt &gt!−− f i n du c o r p s HTML −−&lt <br>
+31 &gt/html&lt &gt!−− f i n du code HTML −−&lt <br>
+
+		    </div>
+
+
+		
+	</main>
+</body>
+</html>
